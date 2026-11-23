@@ -1,0 +1,16 @@
+{
+  "name": "dmen-plugins",
+  "owner": { "name": "dmen-dev" },
+  "plugins": [
+    {
+      "name": "code-review",
+      "description": "Plugin code-review oficial de Anthropic, fijado a un commit exacto.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/code-review",
+        "sha": "73c8cf3ea7e296057b467990f2f5d61b4c922260"
+      }
+    }
+  ]
+}
